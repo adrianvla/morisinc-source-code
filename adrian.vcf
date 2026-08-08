@@ -2,5 +2,6 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Adrian Vlasov
 N:Vlasov;Adrian;;;
+EMAIL:admin@morisinc.net
 URL:https://morisinc.net
 END:VCARD
