@@ -1,0 +1,29 @@
+[
+  {
+    "id": "initial-commit",
+    "title": "First Contact",
+    "date": "2026-10-20",
+    "period": null,
+    "url": "/project?Writing--initial-commit",
+    "tags": [
+      "programming",
+      "experiments"
+    ],
+    "summary": "Bottom text. You will be onboarded onto my thoughts and ideas.",
+    "kind": "blog"
+  },
+  {
+    "id": "cpu-diploma-booklet",
+    "title": "64-bit CPU report",
+    "date": null,
+    "period": "2024–2025",
+    "url": "/project?Writing--cpu-diploma-booklet",
+    "tags": [
+      "processor",
+      "FPGA",
+      "report"
+    ],
+    "summary": "The original French report and English translation of my gymnase diploma project: a 64-bit processor, assembler, and Tetris running on an FPGA.",
+    "kind": "report"
+  }
+]

@@ -1,0 +1,2007 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "now",
+      "title": "Now"
+    },
+    {
+      "id": "2025",
+      "title": "2025"
+    },
+    {
+      "id": "2024",
+      "title": "2024"
+    },
+    {
+      "id": "2023",
+      "title": "2023"
+    },
+    {
+      "id": "2022",
+      "title": "2022"
+    },
+    {
+      "id": "2019-2021",
+      "title": "2019–2021"
+    },
+    {
+      "id": "school",
+      "title": "School years"
+    },
+    {
+      "id": "childhood",
+      "title": "Childhood"
+    }
+  ],
+  "categories": [
+    {
+      "id": "software",
+      "title": "Software",
+      "route": "Software"
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware",
+      "route": "Hardware"
+    },
+    {
+      "id": "games",
+      "title": "Games",
+      "route": "Games"
+    },
+    {
+      "id": "libraries",
+      "title": "Libraries",
+      "route": "Libraries"
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "route": "Research"
+    },
+    {
+      "id": "design",
+      "title": "Design",
+      "route": "Life"
+    },
+    {
+      "id": "art",
+      "title": "Visual art",
+      "route": "Life"
+    },
+    {
+      "id": "maths",
+      "title": "Mathematics",
+      "route": "Life"
+    },
+    {
+      "id": "music",
+      "title": "Music",
+      "route": "Life"
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "route": "Life"
+    },
+    {
+      "id": "community",
+      "title": "Community",
+      "route": "Life"
+    }
+  ],
+  "views": [
+    {
+      "id": "all",
+      "title": "Timeline",
+      "route": "Timeline",
+      "file": "all-work.html",
+      "tags": [],
+      "intro": "Projects, studies, and a few other things along the way."
+    },
+    {
+      "id": "software",
+      "title": "Software",
+      "route": "Software",
+      "file": "software.html",
+      "tags": [
+        "software"
+      ],
+      "intro": "Applications, websites and the tools around them."
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware",
+      "route": "Hardware",
+      "file": "hardware.html",
+      "tags": [
+        "hardware"
+      ],
+      "intro": "Devices, embedded software and processor designs."
+    },
+    {
+      "id": "games",
+      "title": "Games",
+      "route": "Games",
+      "file": "games.html",
+      "tags": [
+        "games"
+      ],
+      "intro": "Minecraft maps and servers, games of my own, and earlier experiments."
+    },
+    {
+      "id": "libraries",
+      "title": "Libraries",
+      "route": "Libraries",
+      "file": "libraries.html",
+      "tags": [
+        "libraries"
+      ],
+      "intro": "Rendering code and reusable tools."
+    },
+    {
+      "id": "life",
+      "title": "Study & art",
+      "route": "Life",
+      "file": "life.html",
+      "tags": [
+        "maths",
+        "music",
+        "languages",
+        "art",
+        "design",
+        "community"
+      ],
+      "intro": "Mathematics, languages, music, design and communities."
+    },
+    {
+      "id": "archive",
+      "title": "Earlier work",
+      "route": "Archive",
+      "file": "archive.html",
+      "tags": [],
+      "archiveOnly": true,
+      "intro": "Older projects and things I no longer maintain."
+    }
+  ],
+  "entries": [
+    {
+      "id": "neuroscience",
+      "title": "Neurons & complex systems",
+      "when": "Studying since September 2024; research ongoing",
+      "group": "2024",
+      "categories": [
+        "research"
+      ],
+      "summary": "I took the EPFL/Blue Brain Simulation Neuroscience MOOC from September to around December 2024, then began my own experiments. The simulator has been rewritten repeatedly as its underlying model changed.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Research"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/research.html",
+        "note": "The author began the Simulation Neuroscience MOOC in September 2024 and finished around December 2024. He then started his own experimental work, including major rewrites and changes in modeling paradigm. The wish to build a realistic virtual intelligence and simulation existed earlier; September 2024 dates his neuroscience studies, not the origin of that ambition. Current technical research is unpublished."
+      },
+      "lane": "research",
+      "chartTitle": "Neurons",
+      "period": {
+        "axis": "calendar",
+        "from": "2024-09",
+        "ongoing": true
+      },
+      "chartWhen": "Sep 2024 →"
+    },
+    {
+      "id": "agents",
+      "title": "Artificial agents",
+      "when": "Artificial societies: philosophical work since early 2025; applied research since March 2026",
+      "group": "2025",
+      "categories": [
+        "research",
+        "software"
+      ],
+      "summary": "I have been studying how memory and interactions shape consistent simulated societies. My conceptual work developed around early 2025; since March 2026 I have been actively testing hypotheses in code, with mLearn as one experimental environment.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Research"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/research.html",
+        "note": "The author’s interest in artificial societies is a childhood dream, not a result of Kodu or the neuroscience MOOC. Focused philosophical research began early 2025 (approximate). March 2026 marks the start of an ongoing applied-research stage with coded experiments using mLearn; that stage is not a single finished event."
+      },
+      "lane": "research",
+      "chartWhen": "Early 2025 →",
+      "phases": [
+        {
+          "id": "concept",
+          "kind": "development",
+          "when": "Early 2025 onward · conceptual models",
+          "period": {
+            "axis": "calendar",
+            "from": "2025",
+            "ongoing": true,
+            "approximate": true
+          },
+          "note": "Conceptual research into consistent simulations, memory and interacting agents."
+        },
+        {
+          "id": "mlearn-tests",
+          "kind": "development",
+          "when": "Since March 2026 · applied research and ongoing coded experiments",
+          "period": {
+            "axis": "calendar",
+            "from": "2026-03",
+            "ongoing": true
+          },
+          "note": "Direct experiments testing agent/simulation hypotheses in an educational environment with mLearn; this is still being developed."
+        }
+      ]
+    },
+    {
+      "id": "lnc",
+      "title": "LNC",
+      "when": "Since October 2025",
+      "group": "2025",
+      "categories": [
+        "software",
+        "design",
+        "community",
+        "languages"
+      ],
+      "summary": "I joined EPFL’s Japanese association in October 2025 and worked on its website intermittently. The association acquired its own domain around mid-October 2026.",
+      "links": [
+        {
+          "label": "Website",
+          "href": "https://lnc-epfl.ch"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "The author joined in October 2025. Website work happened from time to time after that; there was no single continuous development period. The domain purchase was approximately a week before 23 October 2026; its exact day is not confirmed."
+      },
+      "lane": "life",
+      "period": {
+        "axis": "calendar",
+        "from": "2025-10",
+        "ongoing": true,
+        "intermittent": true
+      },
+      "chartWhen": "Oct 2025 →"
+    },
+    {
+      "id": "site-2025",
+      "title": "morisinc.net",
+      "when": "29 July–17 August 2025 · main build",
+      "group": "2025",
+      "categories": [
+        "software",
+        "design"
+      ],
+      "summary": "The current website, with its neon signs, themes and small content system.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?morisinc_net"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/morisinc-net.html",
+        "note": "The 2025 site repository first commit is 29 July 2025. Intensive implementation through mid-August (body overflow fix dated 17 August), followed by small fixes and content updates later in August. The author also recalls an earlier three-week discarded design before rebuilding from scratch in approximately 2.5 weeks; its start date is not established by this repository."
+      },
+      "image": "/assets/img/timeline-site-2025.webp",
+      "lane": "software",
+      "chartTitle": "Website",
+      "chartWhen": "Jul–Aug 2025",
+      "period": {
+        "axis": "calendar",
+        "from": "2025-07-29",
+        "to": "2025-08-17"
+      }
+    },
+    {
+      "id": "voxel",
+      "title": "Voxel rendering",
+      "when": "Computer graphics experiments since April 2025 · ongoing",
+      "group": "2025",
+      "categories": [
+        "research",
+        "software"
+      ],
+      "summary": "Ongoing graphics experiments across several renderer implementations and rewrites: voxel ray traversal, reflection and refraction, spatial acceleration and path tracing. My first voxel tutorial port needed its x86 SIMD code adapted to ARM NEON on the Mac.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Simulation"
+        },
+        {
+          "label": "Original voxel tutorial",
+          "href": "https://jacco.ompf2.com/2024/04/24/ray-tracing-with-voxels-in-c-series-part-1/"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/simulation.html",
+        "note": "The author recovered a video establishing April 2025 as the start of systematic graphics learning. June 2025 recordings on the 9th and 13th are surviving renderer recording dates, not the start. Rendering and ray tracing experiments are still ongoing, with repeated template changes/rebuilds. An initial project used Jacco Bikker’s Ray Tracing with Voxels in C++ tutorial (published April 2024); the author and AI agents adapted its x86 SIMD acceleration to ARM NEON for macOS. Distinguish reused tutorial/template from author-owned algorithms and modifications."
+      },
+      "lane": "research",
+      "chartWhen": "Apr 2025 →",
+      "period": {
+        "axis": "calendar",
+        "from": "2025-04",
+        "ongoing": true,
+        "intermittent": true
+      }
+    },
+    {
+      "id": "euler",
+      "title": "Cours Euler",
+      "when": "2020–2025",
+      "group": "2025",
+      "categories": [
+        "maths"
+      ],
+      "summary": "Five years of mathematics at EPFL, completed in 2025.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?about"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/about.html",
+        "note": "Five-year program completed in 2025. The 2020–2025 interval is also written in cv.html."
+      },
+      "lane": "study",
+      "period": {
+        "axis": "calendar",
+        "from": "2020",
+        "to": "2025"
+      }
+    },
+    {
+      "id": "epfl",
+      "title": "EPFL",
+      "when": "Since 2025",
+      "group": "2025",
+      "categories": [
+        "maths"
+      ],
+      "summary": "University studies, following Cours Euler and my maturité.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?about"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/cv.html",
+        "note": "EPFL BA Maths — 2025-présent; this entry uses the start year only, not a current section claim."
+      },
+      "datetime": "2025",
+      "lane": "study",
+      "period": {
+        "axis": "calendar",
+        "from": "2025",
+        "ongoing": true
+      }
+    },
+    {
+      "id": "mlearn",
+      "title": "mLearn",
+      "when": "October 2024 →",
+      "group": "2024",
+      "categories": [
+        "software",
+        "languages",
+        "research"
+      ],
+      "summary": "Intelligent Subtitles became an application for watching, reading and learning Japanese. I’m still working on it.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?mLearn"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/mlearn.html",
+        "note": "October 2024: packaged Intelligent Subtitles into the first mLearn application."
+      },
+      "datetime": "2024-10",
+      "image": "/assets/img/timeline-mlearn.webp",
+      "lane": "software",
+      "period": {
+        "axis": "calendar",
+        "from": "2024-10",
+        "ongoing": true
+      }
+    },
+    {
+      "id": "sim",
+      "title": "Physics simulator",
+      "when": "Summer 2024 · June–July",
+      "group": "2024",
+      "categories": [
+        "software",
+        "research"
+      ],
+      "summary": "A second physics simulator, written in C++ from scratch in summer 2024: Verlet integration, constraints, collision handling and a three-dimensional spatial collision grid.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Simulation"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/simulation.html",
+        "note": "The author confirms this is his second distinct physics simulator, actively worked on in the June–July summer period of 2024. July 2024 code, screenshots and recordings survive. Start/end days are unknown; the June–July plotting window is not a claim of continuous two-month development. The earlier 2023 Lua/drone simulation was scrapped."
+      },
+      "image": "/assets/img/timeline-sim.webp",
+      "lane": "research",
+      "chartWhen": "Jun–Jul 2024",
+      "period": {
+        "axis": "calendar",
+        "from": "2024-06",
+        "to": "2024-08",
+        "kind": "window"
+      }
+    },
+    {
+      "id": "sim-drone-2023",
+      "title": "Drone flight simulator",
+      "when": "Summer 2023 · June–July",
+      "group": "2023",
+      "categories": [
+        "software",
+        "research"
+      ],
+      "lane": "research",
+      "summary": "An earlier physics simulation for flying drones. I integrated Lua scripting, but the physics was buggy and I eventually scrapped the project. A different C++ engine followed the next summer.",
+      "links": [],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "The author says this was his first physics-simulator project, made one summer earlier than the 2024 Verlet/CollisionGrid engine. June–July 2023 is a remembered seasonal window; exact weeks unknown. The earlier software was scrapped, and no screenshots are known to survive."
+      },
+      "period": {
+        "axis": "calendar",
+        "from": "2023-06",
+        "to": "2023-08",
+        "kind": "window"
+      },
+      "chartTitle": "Drone simulator",
+      "chartWhen": "Jun–Jul 2023",
+      "archived": true
+    },
+    {
+      "id": "subtitles",
+      "title": "Intelligent Subtitles",
+      "when": "July 2024 · about two weeks",
+      "group": "2024",
+      "categories": [
+        "software",
+        "languages"
+      ],
+      "summary": "Interactive Japanese subtitles; the predecessor of the current mLearn application.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Intelligent-Subtitles"
+        },
+        {
+          "label": "Original repository",
+          "href": "https://github.com/adrianvla/intelligent-subtitles"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/intelligent-subtitles.html",
+        "note": "Original 2024 project, independent of mLearn. Author-supplied screenshots captured from its original README. Author confirms approximately two weeks of active development in July 2024; precise dates unknown."
+      },
+      "lane": "software",
+      "chartTitle": "Intelligent Subtitles",
+      "chartWhen": "Jul 2024 · ~2 wk",
+      "period": {
+        "axis": "calendar",
+        "from": "2024-07",
+        "to": "2024-08",
+        "kind": "window",
+        "activeDuration": {
+          "unit": "weeks",
+          "value": 2
+        }
+      }
+    },
+    {
+      "id": "tm",
+      "title": "Travail de maturité",
+      "when": "2024–2025",
+      "group": "2024",
+      "categories": [
+        "hardware",
+        "software",
+        "games",
+        "research"
+      ],
+      "summary": "A new 64-bit processor, assembler and Tetris, running on an FPGA with video and sound.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?HS-Diploma-Project"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/tm2024.html",
+        "note": "For my 2024–2025 Travail de maturité. Separate design and codebase from the 2023 processor."
+      },
+      "image": "/assets/img/timeline-tm.webp",
+      "lane": "hardware",
+      "period": {
+        "axis": "calendar",
+        "from": "2024",
+        "to": "2025"
+      },
+      "chartTitle": "Diploma CPU"
+    },
+    {
+      "id": "japanese",
+      "title": "Japanese",
+      "when": "February 2024",
+      "group": "2024",
+      "categories": [
+        "languages"
+      ],
+      "summary": "The start of sustained study, after several earlier attempts.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?mLearn"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/mlearn.html",
+        "note": "I started studying Japanese seriously in February 2024. Ongoing study is confirmed by the current mLearn article and conversations; no end date is assigned."
+      },
+      "datetime": "2024-02",
+      "lane": "life",
+      "period": {
+        "axis": "calendar",
+        "from": "2024-02",
+        "ongoing": true
+      },
+      "chartWhen": "Feb 2024 →"
+    },
+    {
+      "id": "precollege",
+      "title": "Precollege",
+      "when": "2024–2025, precollege piano",
+      "group": "2024",
+      "categories": [
+        "music"
+      ],
+      "summary": "One academic year in the CMG Precollege programme.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?about"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/cv.html",
+        "note": "One academic year of pre-college piano training, 2024–25. This is separate from piano as a continuing musical activity."
+      },
+      "datetime": "2024",
+      "lane": "life",
+      "period": {
+        "axis": "calendar",
+        "from": "2024",
+        "to": "2025"
+      },
+      "chartTitle": "Precollege piano",
+      "chartWhen": "2024–25"
+    },
+    {
+      "id": "image-models",
+      "title": "Image models",
+      "when": "Late 2023–mid-2024",
+      "group": "2023",
+      "categories": [
+        "research",
+        "art"
+      ],
+      "summary": "Local Stable Diffusion experiments with existing character LoRAs and my own boyman adapter; surviving generations span December 2023, February and June 2024.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Image-Models"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/image-models.html",
+        "note": "Intermittent experimentation. Surviving generations dated December 2023, February 2024, and June 2024. The exact week of adapter training is not established by these image dates; existing character adapters and third-party hand/detail adapters should not be represented as originally trained by the author."
+      },
+      "image": "/assets/img/timeline-image-models.webp",
+      "lane": "research",
+      "period": {
+        "axis": "calendar",
+        "from": "2023-12",
+        "to": "2024-06",
+        "intermittent": true
+      },
+      "chartTitle": "Image models",
+      "chartWhen": "2023–24"
+    },
+    {
+      "id": "cpu-2023",
+      "title": "First processor",
+      "when": "2023 · several development periods",
+      "group": "2023",
+      "categories": [
+        "hardware",
+        "software",
+        "libraries",
+        "research"
+      ],
+      "summary": "My first 32-bit Verilog CPU went through seven revisions. I also wrote its Python assembler and a substantial C++/SDL2/ImGui emulator, which occupied an entire spring holiday.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?2023-Processor"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/processor-2023.html",
+        "note": "The author remembers 2023 as the main processor-project year, with spotty but serious activity and spring holidays devoted to the emulator. The exact holiday and first/last weeks are not established, so the calendar-year window does not imply year-round development. The later Travail de maturité CPU was a new design from scratch."
+      },
+      "archived": true,
+      "lane": "hardware",
+      "chartTitle": "First CPU",
+      "chartWhen": "2023 · intermittent",
+      "period": {
+        "axis": "calendar",
+        "from": "2023",
+        "to": "2024",
+        "kind": "window"
+      }
+    },
+    {
+      "id": "site-2022",
+      "title": "morisinc.net, 2022",
+      "when": "June–July 2022 · about one month of work",
+      "group": "2022",
+      "categories": [
+        "software",
+        "design"
+      ],
+      "summary": "The earlier portfolio: large typography, textures and transitions.",
+      "links": [
+        {
+          "label": "Visit the archive",
+          "href": "https://m2022.morisinc.net"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/morisinc-net.html",
+        "note": "The author remembers approximately one month of work straddling June and July 2022. The June–July window represents known placement, not two months of continuous development; the 2022 portfolio had a custom content parser and transitions."
+      },
+      "archived": true,
+      "image": "/assets/img/timeline-site-2022.webp",
+      "lane": "software",
+      "chartTitle": "morisinc 2022",
+      "chartWhen": "Jun–Jul 2022",
+      "period": {
+        "axis": "calendar",
+        "from": "2022-06",
+        "to": "2022-08",
+        "kind": "window",
+        "activeDuration": {
+          "unit": "months",
+          "value": 1
+        }
+      }
+    },
+    {
+      "id": "logitech-ai",
+      "title": "Logitech internship",
+      "when": "5–13 May 2022 · five internship days",
+      "group": "2022",
+      "categories": [
+        "software"
+      ],
+      "summary": "A five-day placement: a JavaScript interface and JSON configuration for synthetic videoconference scenes.",
+      "links": [],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/cv.html",
+        "note": "The author specifies 5 to 13 May 2022, excluding the 6th and 9th and the weekend (five working days). The plotted interval is the placement date range, not nine continuous workdays. The signed Logitech letter confirms the placement scope but is not published."
+      },
+      "lane": "software",
+      "chartTitle": "Logitech",
+      "chartWhen": "5–13 May 2022",
+      "period": {
+        "axis": "calendar",
+        "from": "2022-05-05",
+        "to": "2022-05-14",
+        "intermittent": true
+      }
+    },
+    {
+      "id": "datapacks",
+      "title": "Minecraft datapacks",
+      "when": "2020–2021",
+      "group": "2019-2021",
+      "categories": [
+        "games",
+        "software"
+      ],
+      "summary": "Challenges, game modes, models and videos, published on Planet Minecraft.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Minecraft"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/minecraft.html",
+        "note": "Released on Planet Minecraft around 2020–2021."
+      },
+      "archived": true,
+      "lane": "games",
+      "period": {
+        "axis": "calendar",
+        "from": "2020",
+        "to": "2021",
+        "approximate": true
+      },
+      "chartTitle": "Datapacks"
+    },
+    {
+      "id": "blender-city",
+      "title": "A city in Blender",
+      "when": "9th grade · June 2020 renders",
+      "group": "2019-2021",
+      "categories": [
+        "art",
+        "design"
+      ],
+      "summary": "A geography project with a cable car, green roofs and wind turbines.",
+      "links": [
+        {
+          "label": "View the render",
+          "href": "/assets/img/9th-grade-geo-project3.png"
+        }
+      ],
+      "source": {
+        "kind": "recollection",
+        "note": "User recovered render1.png dated 2020-06-13 and render14k.png dated 2020-06-15 for a ninth-grade geography project; latest bundle supplies three renders."
+      },
+      "archived": true,
+      "image": "/assets/img/timeline-blender-city.webp",
+      "lane": "life",
+      "period": {
+        "axis": "calendar",
+        "at": "2020-06"
+      },
+      "chartTitle": "Blender city",
+      "chartWhen": "June 2020"
+    },
+    {
+      "id": "medit",
+      "title": "MEdit",
+      "when": "Around June 2020 · roughly one month of development (estimated)",
+      "group": "2019-2021",
+      "categories": [
+        "software",
+        "libraries",
+        "design"
+      ],
+      "summary": "My first CMS, written in 2020.",
+      "links": [],
+      "source": {
+        "kind": "recollection",
+        "note": "The author estimates roughly one month of active work in 2020. A recovered MEdit file is dated 25 June 2020, so the approximate window is placed around June; that file date is evidence of the project’s existence, not its verified start."
+      },
+      "archived": true,
+      "lane": "software",
+      "chartWhen": "c. Jun 2020 · ~1 mo",
+      "period": {
+        "axis": "calendar",
+        "from": "2020-06",
+        "to": "2020-07",
+        "approximate": true
+      }
+    },
+    {
+      "id": "maps",
+      "title": "Minecraft maps",
+      "when": "April–June 2019",
+      "group": "2019-2021",
+      "categories": [
+        "games",
+        "art"
+      ],
+      "summary": "Craft This, Speed Builders and Counter Strike.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Minecraft"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/minecraft.html",
+        "note": "Craft This 13.04.2019; Speed Builders 24.04.2019; Counter Strike 16.06.2019."
+      },
+      "archived": true,
+      "image": "/assets/img/timeline-maps.webp",
+      "lane": "games",
+      "period": {
+        "axis": "calendar",
+        "from": "2019-04",
+        "to": "2019-06",
+        "intermittent": true
+      },
+      "chartTitle": "MC maps",
+      "chartWhen": "2019 releases"
+    },
+    {
+      "id": "xwatch",
+      "title": "XWatch",
+      "when": "May–June 2019 · active development",
+      "group": "2019-2021",
+      "categories": [
+        "hardware",
+        "software"
+      ],
+      "summary": "M5Stack watch firmware: clock, alarm, timers, wallpapers and an SD-card MP3 player.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?XWatch"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/xwatch.html",
+        "note": "The author confirmed continuous active development around May–June 2019, matching the recovered firmware archive. XWatch is the M5Stack wearable project and is distinct from MWatch."
+      },
+      "archived": true,
+      "lane": "hardware",
+      "period": {
+        "axis": "calendar",
+        "from": "2019-05",
+        "to": "2019-07"
+      },
+      "chartWhen": "May–Jun 2019"
+    },
+    {
+      "id": "learn-online",
+      "title": "Learn Online",
+      "when": "Grades 9–10",
+      "group": "school",
+      "categories": [
+        "software",
+        "design"
+      ],
+      "summary": "Classes, curricula, permissions, vocabulary activities and OCR import in a custom web application.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Learn-Online"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/learn-online.html",
+        "note": "Grades 9–10. Separate product from modern mLearn."
+      },
+      "archived": true,
+      "lane": "software",
+      "period": {
+        "axis": "grade",
+        "from": 9,
+        "to": 10
+      }
+    },
+    {
+      "id": "air-control",
+      "title": "Air Control",
+      "when": "Grades 9–10",
+      "group": "school",
+      "categories": [
+        "software"
+      ],
+      "summary": "Move a cursor between Windows computers over the local network.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Air-Control"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/air-control.html",
+        "note": "Grades 9–10."
+      },
+      "archived": true,
+      "lane": "software",
+      "period": {
+        "axis": "grade",
+        "from": 9,
+        "to": 10
+      }
+    },
+    {
+      "id": "mcall",
+      "title": "mCall",
+      "when": "Grades 9–10",
+      "group": "school",
+      "categories": [
+        "software"
+      ],
+      "summary": "WebRTC calls with screen sharing and individual control over peer connections.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?mCall"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/mcall.html",
+        "note": "Grades 9–10 during the COVID-19 pandemic. The 2022 demonstration is not a start date."
+      },
+      "archived": true,
+      "image": "/assets/img/timeline-mcall.webp",
+      "lane": "software",
+      "period": {
+        "axis": "grade",
+        "from": 9,
+        "to": 10
+      }
+    },
+    {
+      "id": "creepler",
+      "title": "Creepler Network",
+      "when": "9th grade",
+      "group": "school",
+      "categories": [
+        "games",
+        "software"
+      ],
+      "summary": "A Minecraft network with custom game modes, Bedwars, UHC, Dynmap and Bedrock support.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Minecraft"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/minecraft.html",
+        "note": "In ninth grade. Public for about a month. Avoid inflating the audience."
+      },
+      "archived": true,
+      "lane": "games",
+      "period": {
+        "axis": "grade",
+        "at": 9
+      },
+      "chartTitle": "Creepler"
+    },
+    {
+      "id": "logitech-design",
+      "title": "Logitech Design",
+      "when": "9th grade",
+      "group": "school",
+      "categories": [
+        "design",
+        "software"
+      ],
+      "summary": "Internal learning websites, substantially redesigned from templates I brought, followed by a walkthrough for the team.",
+      "links": [],
+      "source": {
+        "kind": "recollection",
+        "note": "User corrected template provenance and described the ninth-grade design placement separately from the 2022 synthesis.ai internship. No exact calendar date given."
+      },
+      "lane": "software",
+      "period": {
+        "axis": "grade",
+        "at": 9
+      }
+    },
+    {
+      "id": "mwatch",
+      "title": "MWatch",
+      "when": "Grades 8–9",
+      "group": "school",
+      "categories": [
+        "hardware",
+        "design"
+      ],
+      "summary": "A working GSM watch, with a custom enclosure, replacement interconnect PCB and folded flex cables.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?MWatch"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/mwatch.html",
+        "note": "Grades 8–9. Assembled working prototype; proposed commercial variants remained concepts."
+      },
+      "archived": true,
+      "image": "/assets/img/timeline-mwatch.webp",
+      "lane": "hardware",
+      "period": {
+        "axis": "grade",
+        "from": 8,
+        "to": 9
+      }
+    },
+    {
+      "id": "stm32",
+      "title": "Embedded interfaces",
+      "when": "Grades 5–6",
+      "group": "childhood",
+      "categories": [
+        "hardware",
+        "software",
+        "libraries"
+      ],
+      "summary": "An STM32 mini-OS/demo and graphics work, including double buffering and experiments on M5Stack.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Early-Projects"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/early-projects.html",
+        "note": "STM32 — grades 5–6. Do not infer that XWatch used this graphics library."
+      },
+      "archived": true,
+      "lane": "hardware",
+      "period": {
+        "axis": "grade",
+        "from": 5,
+        "to": 6,
+        "kind": "window",
+        "approximate": true
+      },
+      "chartTitle": "Embedded UI"
+    },
+    {
+      "id": "glasses",
+      "title": "Smart Glasses",
+      "when": "Around age eight",
+      "group": "childhood",
+      "categories": [
+        "hardware",
+        "design",
+        "research"
+      ],
+      "summary": "Paper designs, form-factor iterations and display experiments.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Smart-Glasses"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/smart-glasses.html",
+        "note": "Author reaffirmed the project was around age eight. It was inspired by screen technology from films; a calendar year has not been independently established. No finished AR device or verified optical-assembly authorship is claimed."
+      },
+      "archived": true,
+      "lane": "hardware",
+      "period": {
+        "axis": "age",
+        "at": 8,
+        "approximate": true
+      }
+    },
+    {
+      "id": "mesh",
+      "title": "Sony MESH",
+      "when": "4th grade",
+      "group": "childhood",
+      "categories": [
+        "games",
+        "hardware"
+      ],
+      "summary": "A dance/workout game that scored patterns of movement from a handheld accelerometer.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Early-Projects"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/early-projects.html",
+        "note": "Sony MESH — grade 4."
+      },
+      "archived": true,
+      "lane": "games",
+      "period": {
+        "axis": "grade",
+        "at": 4
+      }
+    },
+    {
+      "id": "arduino",
+      "title": "First Arduino game",
+      "when": "Age 5–6",
+      "group": "childhood",
+      "categories": [
+        "games",
+        "hardware",
+        "software"
+      ],
+      "summary": "A one-dimensional shooter on a two-line text display, with buttons, monsters and scoring.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Early-Projects"
+        }
+      ],
+      "source": {
+        "kind": "page",
+        "file": "src/assets/site-content/early-projects.html",
+        "note": "Author described this as extremely early (around ages five to six). The 5–6 range is an age bracket, not a claim that development ran continuously for two years. No independent calendar year is established."
+      },
+      "archived": true,
+      "lane": "games",
+      "period": {
+        "axis": "age",
+        "from": 5,
+        "to": 6,
+        "kind": "window",
+        "approximate": true
+      },
+      "chartTitle": "Arduino game"
+    },
+    {
+      "id": "piano",
+      "title": "Piano",
+      "when": "Since about age five (around 2012–13)",
+      "group": "childhood",
+      "categories": [
+        "music"
+      ],
+      "summary": "I began playing piano when I was about five, and I still play.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?about"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "The author recalls starting piano at around age five but cannot supply a reliable calendar year. He later passed his pre-college examination and ended CMG enrollment in 2025; this does not mean piano itself ended then. The chart approximates this to 2012 using the year of birth in the CV; age five extends into 2013. The exact start date is unknown."
+      },
+      "lane": "life",
+      "period": {
+        "axis": "calendar",
+        "from": "2012",
+        "ongoing": true,
+        "approximate": true
+      },
+      "chartWhen": "From age five →"
+    },
+    {
+      "id": "card",
+      "title": "Electronic business card",
+      "when": "October 2025; July 2026",
+      "group": "2025",
+      "categories": [
+        "hardware",
+        "design",
+        "software"
+      ],
+      "summary": "An nRF52 PCB with NFC, BLE, gesture input, LEDs and presenter controls.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Business-Card"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/business-card.html",
+        "note": "Author confirmed October 2025 (approximately one week of hardware and firmware work), followed by two days of finishing work recalled as July 2026. Public GitHub commits show 14–15 October 2025 and 7–8 August 2026; the latter discrepancy is retained in provenance, not silently used to replace the author’s July recollection."
+      },
+      "image": "/assets/img/timeline-card.webp",
+      "lane": "hardware",
+      "phases": [
+        {
+          "id": "build",
+          "kind": "development",
+          "when": "October 2025 · about one week",
+          "period": {
+            "axis": "calendar",
+            "from": "2025-10",
+            "to": "2025-11",
+            "kind": "window",
+            "activeDuration": {
+              "unit": "weeks",
+              "value": 1
+            }
+          },
+          "note": "Initial hardware design, PCB and firmware."
+        },
+        {
+          "id": "finish",
+          "kind": "maintenance",
+          "when": "July 2026 · two days",
+          "period": {
+            "axis": "calendar",
+            "from": "2026-07",
+            "to": "2026-08",
+            "kind": "window",
+            "activeDuration": {
+              "unit": "days",
+              "value": 2
+            }
+          },
+          "note": "Fixed software bugs and added a few features before giving the cards out."
+        }
+      ],
+      "chartWhen": "2025 / 2026",
+      "chartTitle": "Business card"
+    },
+    {
+      "id": "clock",
+      "title": "Smart Clock",
+      "when": "August 2025 · one week",
+      "group": "2025",
+      "categories": [
+        "hardware",
+        "software",
+        "design"
+      ],
+      "summary": "A Raspberry Pi Zero matrix clock with browser-editable widgets, built in one week in August 2025.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Smart-Clock"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/clock.html",
+        "note": "The author confirms one week of initial development in August 2025, without later maintenance. GitHub records code commits on 8 August 2025, but this does not establish which seven consecutive days the build occupied."
+      },
+      "image": "/assets/img/timeline-clock.webp",
+      "lane": "hardware",
+      "period": {
+        "axis": "calendar",
+        "from": "2025-08",
+        "to": "2025-09",
+        "kind": "window",
+        "activeDuration": {
+          "unit": "weeks",
+          "value": 1
+        }
+      },
+      "chartWhen": "Aug 2025 · 1 week"
+    },
+    {
+      "id": "decks",
+      "title": "Decks",
+      "when": "First version: December 2023 or January 2024; still in use",
+      "group": "2024",
+      "categories": [
+        "software",
+        "maths"
+      ],
+      "summary": "Flashcards with LaTeX and images, portable .deck files, and a Firebase database for each user. I still use my existing decks for exams.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Decks"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/decks.html",
+        "note": "Author confirmed creation/first use around December 2023–January 2024, public availability by August 2024, and continued exam use through this interview. The creation window ends at 2024-02 exclusively to include January; this is an enclosing uncertainty window, not a February development claim. Use begins approximately at 2024-01. The 2025-08-21 commit edits help/index.html; it is documentation, not product development. Source: https://github.com/adrianvla/decks/commit/cf7319aedb3a457d39500d9539e4c895ada46f41 ; the October code fix: https://github.com/adrianvla/decks/commit/26b756d066812da6009329e530c408fafb7d9c26 ."
+      },
+      "image": "/assets/img/timeline-decks.webp",
+      "lane": "software",
+      "phases": [
+        {
+          "id": "first-version",
+          "kind": "development",
+          "when": "December 2023 or January 2024 · about one week",
+          "period": {
+            "axis": "calendar",
+            "from": "2023-12",
+            "to": "2024-02",
+            "kind": "window",
+            "approximate": true,
+            "activeDuration": {
+              "unit": "weeks",
+              "value": 1
+            }
+          },
+          "note": "The first private version, made for my own studying."
+        },
+        {
+          "id": "fixes",
+          "kind": "maintenance",
+          "when": "January–October 2024 · occasional updates",
+          "period": {
+            "axis": "calendar",
+            "from": "2024-01",
+            "to": "2024-10-27",
+            "intermittent": true
+          },
+          "note": "Occasional fixes to cards, images, mobile layout, MathJax and previews."
+        },
+        {
+          "id": "public",
+          "kind": "publication",
+          "when": "Publicly available by August 2024",
+          "period": {
+            "axis": "calendar",
+            "at": "2024-08",
+            "approximate": true
+          },
+          "note": "Public availability with a setup tutorial."
+        },
+        {
+          "id": "instructions",
+          "kind": "maintenance",
+          "when": "21 August 2025 · setup instructions",
+          "period": {
+            "axis": "calendar",
+            "at": "2025-08-21"
+          },
+          "note": "Clarified Firebase configuration instructions."
+        },
+        {
+          "id": "exam-use",
+          "kind": "use",
+          "when": "Since winter 2023–24 · ongoing",
+          "period": {
+            "axis": "calendar",
+            "from": "2024-01",
+            "ongoing": true,
+            "approximate": true
+          },
+          "note": "Still my go-to app for exams, with my existing study sets."
+        }
+      ],
+      "chartWhen": "2023/24 → in use",
+      "archived": false
+    },
+    {
+      "id": "iot",
+      "title": "IoT home automation",
+      "when": "Between 11S and first-year gymnase",
+      "group": "school",
+      "categories": [
+        "hardware",
+        "software",
+        "design"
+      ],
+      "summary": "A Raspberry Pi system with a phone interface for rooms, switches, brightness and colour. I left it before integrating it at home; I no longer wanted to keep checking a phone or another browser tab.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?IoT-Home-Automation"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/iot.html",
+        "note": "Author places the build between 11S and first-year gymnase. The grade-12 boundary denotes the transition after 11S, not a claim about the official grade label or a calendar year. No domestic deployment or usage interval is claimed."
+      },
+      "archived": true,
+      "image": "/assets/img/timeline-iot.webp",
+      "lane": "hardware",
+      "period": {
+        "axis": "grade",
+        "from": 11,
+        "to": 12,
+        "kind": "window"
+      },
+      "chartWhen": "11S → gymnase",
+      "chartTitle": "Home automation"
+    },
+    {
+      "id": "8bit",
+      "title": "8BIT.js",
+      "when": "Summer between 10S and 11S",
+      "group": "school",
+      "categories": [
+        "libraries",
+        "games",
+        "software"
+      ],
+      "summary": "A Scratch-like JavaScript library for sprites, animation, parallax and particles on Canvas. Built after Learn Online; later published with a batch of my older projects.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?8BIT_js"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/8bit-js.html",
+        "note": "Author: made just after Learn Online, in the summer between 10S and 11S. Later GitHub uploads were a dump of existing projects, not a second development period. No calendar year is inferred from that grade. The 2022 repository activity is not drawn as development."
+      },
+      "image": "/assets/img/timeline-8bit.webp",
+      "lane": "software",
+      "period": {
+        "axis": "grade",
+        "from": 10,
+        "to": 11,
+        "kind": "window"
+      },
+      "chartWhen": "10S → 11S summer"
+    },
+    {
+      "id": "geo",
+      "title": "Geo Game",
+      "when": "July 2022 · 2–3 weeks · 11S",
+      "group": "2022",
+      "categories": [
+        "games",
+        "software"
+      ],
+      "summary": "Multiplayer geography, made while exploring distributed JavaScript state and Tailwind CSS.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Geo-Game"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/geo-game.html",
+        "note": "The author remembers 2–3 weeks of development in July 2022 (11S). The GitHub history first appears in August 2022, which documents upload/publication activity rather than proving the development occurred in August."
+      },
+      "image": "/assets/img/timeline-geo.webp",
+      "lane": "games",
+      "period": {
+        "axis": "calendar",
+        "from": "2022-07",
+        "to": "2022-08",
+        "kind": "window",
+        "activeDuration": {
+          "unit": "weeks",
+          "value": 2,
+          "maxValue": 3
+        }
+      },
+      "chartWhen": "Jul 2022 · 2–3 weeks"
+    },
+    {
+      "id": "tetris",
+      "title": "DVK-2M Tetris",
+      "when": "December 2021–early January 2022",
+      "group": "2022",
+      "categories": [
+        "games",
+        "software"
+      ],
+      "summary": "A browser recreation of the original Tetris interface and game logic.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Retro-Tetris"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/tetris.html",
+        "note": "Author winter-holiday recollection and prior conversation establish December 2021–early January 2022. The exact start/end days remain unknown. Grade is not inferred."
+      },
+      "image": "/assets/img/timeline-tetris.webp",
+      "lane": "games",
+      "period": {
+        "axis": "calendar",
+        "from": "2021-12",
+        "to": "2022-01",
+        "approximate": true
+      },
+      "chartWhen": "Winter 2021–22"
+    },
+    {
+      "id": "dynweb",
+      "title": "DynWeb",
+      "when": "Spring 2021 · 10S",
+      "group": "2019-2021",
+      "categories": [
+        "libraries",
+        "software"
+      ],
+      "summary": "A small website content loader. I needed it for my keke site, which fetched and organized Planet Minecraft content through a CORS proxy.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?DynWeb"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/dynweb.html",
+        "note": "Author confirmed spring 2021 in 10S, for the keke website. March–June is an approximate spring placement window, not an asserted three-month development duration."
+      },
+      "image": "/assets/img/timeline-dynweb.webp",
+      "lane": "software",
+      "period": {
+        "axis": "calendar",
+        "from": "2021-03",
+        "to": "2021-06",
+        "kind": "window",
+        "approximate": true
+      },
+      "chartWhen": "Spring 2021 · 10S"
+    },
+    {
+      "id": "quick",
+      "title": "quick!",
+      "when": "20–22 August 2025",
+      "group": "2025",
+      "categories": [
+        "software"
+      ],
+      "summary": "A small PERT-based task planner I made to organize work on mLearn.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?quick!"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/quick.html",
+        "note": "Author explicitly said GitHub dates are reliable for this project. Recorded development commits run from 2025-08-20 to 2025-08-22: https://github.com/adrianvla/quick/commits/main/ ."
+      },
+      "image": "/assets/img/timeline-quick.webp",
+      "lane": "software",
+      "period": {
+        "axis": "calendar",
+        "from": "2025-08-20",
+        "to": "2025-08-22"
+      },
+      "chartWhen": "20–22 Aug 2025"
+    },
+    {
+      "id": "geiger",
+      "title": "M5Stack Geiger counter",
+      "when": "July 2021 · 2–3 weeks",
+      "group": "2019-2021",
+      "categories": [
+        "hardware",
+        "software"
+      ],
+      "summary": "A M5Stack Geiger counter with Wi-Fi logging and a radiation map. I worked on it for two to three weeks in July 2021.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?M5-Geiger-Counter"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "file": "src/assets/site-content/m5geiger.html",
+        "note": "Author confirms around two to three weeks in July 2021. The exact weeks are not established by the available GitHub evidence; retain the month and duration without inventing start/end days."
+      },
+      "image": "/assets/img/timeline-geiger.webp",
+      "lane": "hardware",
+      "period": {
+        "axis": "calendar",
+        "from": "2021-07",
+        "to": "2021-08",
+        "kind": "window",
+        "activeDuration": {
+          "unit": "weeks",
+          "value": 2,
+          "maxValue": 3
+        }
+      },
+      "chartWhen": "Jul 2021 · 2–3 weeks",
+      "chartTitle": "Geiger counter"
+    },
+    {
+      "id": "turing",
+      "title": "Cours Turing",
+      "when": "First two editions · 2023–2025",
+      "group": "2025",
+      "categories": [
+        "maths",
+        "software"
+      ],
+      "summary": "I attended the first two years of Cours Turing at EPFL, in 2023–24 and 2024–25.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?about"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed-editions",
+        "file": "src/assets/site-content/about.html",
+        "note": "First two editions confirmed by the author; EPFL confirms the first edition was 2023–24: https://www.epfl.ch/schools/ic/fr/education-fr/master-fr/interface-enseignement-secondaire/ ."
+      },
+      "lane": "study",
+      "period": {
+        "axis": "calendar",
+        "from": "2023",
+        "to": "2025"
+      },
+      "chartWhen": "2023–25"
+    },
+    {
+      "id": "organ",
+      "title": "Organ",
+      "when": "Academic years 2023–25",
+      "group": "2025",
+      "categories": [
+        "music"
+      ],
+      "summary": "Two academic years of organ with Diego Innocenzi. I completed the AFA alongside my maturité.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?about"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "Author confirmed two academic years ending with the maturité. The author’s current CV ends gymnase in 2025, giving academic years 2023–24 and 2024–25. Exact lesson/exam dates are not claimed."
+      },
+      "lane": "life",
+      "period": {
+        "axis": "calendar",
+        "from": "2023",
+        "to": "2025"
+      },
+      "chartWhen": "2023–25 · AFA"
+    },
+    {
+      "id": "hackahealth",
+      "title": "Hackahealth",
+      "when": "October 2025 · three days (Friday–Sunday)",
+      "group": "2025",
+      "categories": [
+        "hardware",
+        "community"
+      ],
+      "summary": "Our team built an assistive lift for toilet transfers; everyone contributed to the prototype.",
+      "links": [],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "Author confirmed October 2025: a three-day hackathon, Friday through Sunday. Exact October dates were not recalled. The assistive lift was a team effort and is attributed collectively."
+      },
+      "lane": "hardware",
+      "period": {
+        "axis": "calendar",
+        "from": "2025-10",
+        "to": "2025-11",
+        "kind": "window",
+        "activeDuration": {
+          "unit": "days",
+          "value": 3,
+          "startWeekday": 5
+        }
+      },
+      "chartWhen": "Oct 2025 · 3 days"
+    },
+    {
+      "id": "triangles",
+      "title": "Fast Filled Triangles",
+      "when": "July–August 2023 · about two weeks",
+      "group": "2023",
+      "categories": [
+        "libraries",
+        "software"
+      ],
+      "summary": "A fixed-point rasterizer using scanlines and Bresenham-style edges. I extracted it as a library from a larger CPU-based rendering experiment, then moved from SFML toward SDL2.",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://github.com/adrianvla/fast-filled-triangles"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "The author dates a roughly two-week renderer project to July–August 2023, and this library was extracted from that renderer. The calendar window covers possible placement, not two months of continuous work or a standalone two-week library-development effort."
+      },
+      "lane": "software",
+      "period": {
+        "axis": "calendar",
+        "from": "2023-07",
+        "to": "2023-09",
+        "kind": "window",
+        "activeDuration": {
+          "unit": "weeks",
+          "value": 2
+        }
+      },
+      "chartWhen": "Jul–Aug 2023 · ~2 wk",
+      "chartTitle": "Triangle rasterizer"
+    },
+    {
+      "id": "chemistry",
+      "title": "Minecraft Chemistry",
+      "when": "Christmas 2023–early January 2024; February 2026",
+      "group": "2023",
+      "categories": [
+        "games",
+        "software"
+      ],
+      "summary": "A mod with handmade models, later revisited for an LLM-assisted stoichiometry experiment.",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://github.com/adrianvla/chemistry"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "Author confirmed Christmas Eve 2023 to very early January, and a separate two-day AI-assisted stoichiometry burst. The February 20–21 2026 dates are the recorded revival commits; no development is drawn across the dormant gap. https://github.com/adrianvla/chemistry/commits/main/ ."
+      },
+      "lane": "games",
+      "phases": [
+        {
+          "id": "original",
+          "kind": "development",
+          "when": "24 December 2023–early January 2024",
+          "period": {
+            "axis": "calendar",
+            "from": "2023-12-24",
+            "to": "2024-01",
+            "approximate": true
+          },
+          "note": "The original mod and models were created by hand."
+        },
+        {
+          "id": "stoichiometry",
+          "kind": "development",
+          "when": "20–21 February 2026 · two days",
+          "period": {
+            "axis": "calendar",
+            "from": "2026-02-20",
+            "to": "2026-02-21"
+          },
+          "note": "Returned briefly to use AI for stoichiometry on top of the existing mod."
+        }
+      ],
+      "chartWhen": "2023/24 + 2026",
+      "chartTitle": "Chemistry mod"
+    },
+    {
+      "id": "kodu",
+      "title": "Kodu Game Lab",
+      "when": "Around 4th grade",
+      "group": "childhood",
+      "categories": [
+        "games"
+      ],
+      "summary": "Games and interacting state machines, including an attempt to remake Splatoon.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?Early-Projects"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "Author’s approximate recollection: fourth grade. This records the activity; it is not an origin story for the earlier childhood dream of artificial societies."
+      },
+      "archived": true,
+      "lane": "games",
+      "period": {
+        "axis": "grade",
+        "at": 4,
+        "approximate": true
+      },
+      "chartWhen": "Around grade 4"
+    },
+    {
+      "id": "film-scoring",
+      "title": "Composition for image",
+      "when": "Academic year 2022–23",
+      "group": "2023",
+      "categories": [
+        "music"
+      ],
+      "lane": "life",
+      "chartTitle": "Film scoring",
+      "chartWhen": "2022–23",
+      "period": {
+        "axis": "calendar",
+        "from": "2022",
+        "to": "2023"
+      },
+      "summary": "I spent the 2022–23 academic year studying composition for film and other moving images.",
+      "links": [
+        {
+          "label": "Read",
+          "href": "/project?about"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "Author dates film scoring to the academic year containing 4 March 2023. Also recalls composition pour l’image around 11S, uncertain. Treated here as one entry rather than inventing two distinct courses; the academic-year recollection controls placement, and no grade-to-calendar mapping is asserted."
+      }
+    },
+    {
+      "id": "scratch",
+      "title": "Scratch projects",
+      "when": "9th grade · geography game",
+      "group": "school",
+      "categories": [
+        "games",
+        "software"
+      ],
+      "lane": "games",
+      "period": {
+        "axis": "grade",
+        "at": 9
+      },
+      "chartWhen": "Grade 9 · geography",
+      "summary": "A 3D clock and a geography game made in Scratch, using a 3D framework and map from other creators.",
+      "links": [
+        {
+          "label": "Profile",
+          "href": "https://scratch.mit.edu/users/adri1012018/"
+        },
+        {
+          "label": "Read",
+          "href": "/project?Early-Projects"
+        }
+      ],
+      "source": {
+        "kind": "author-confirmed",
+        "note": "Author explicitly places the geography game in ninth grade and identifies the 3D framework and map as borrowed. This marker anchors the geography-game period; it is not an exact date for every Scratch experiment or the 3D clock."
+      },
+      "archived": true
+    },
+    {
+      "id": "early-websites",
+      "title": "Early websites",
+      "when": "Around 2016–2018",
+      "group": "childhood",
+      "categories": [
+        "software",
+        "design"
+      ],
+      "lane": "software",
+      "period": {
+        "axis": "calendar",
+        "from": "2016",
+        "to": "2018",
+        "approximate": true,
+        "intermittent": true
+      },
+      "chartWhen": "c. 2016–18",
+      "summary": "Some of my first WordPress experiments, including adri101fr.wordpress.com.",
+      "links": [
+        {
+          "label": "Archive",
+          "href": "https://adri101fr.wordpress.com/"
+        }
+      ],
+      "source": {
+        "kind": "author-recollection",
+        "note": "Author’s estimate from early posts: WordPress around 2016–2018. This is an approximate era, not exact project boundaries. Kept separate from the later 2019 Minecraft map posts on morisinc.wordpress.com."
+      },
+      "archived": true
+    }
+  ],
+  "asOf": "2026-10",
+  "lanes": [
+    {
+      "id": "study",
+      "title": "Study",
+      "categories": [
+        "maths"
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Software",
+      "categories": [
+        "software",
+        "libraries"
+      ]
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware",
+      "categories": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "categories": [
+        "research"
+      ]
+    },
+    {
+      "id": "games",
+      "title": "Games",
+      "categories": [
+        "games"
+      ]
+    },
+    {
+      "id": "life",
+      "title": "Art & languages",
+      "categories": [
+        "music",
+        "languages",
+        "art",
+        "design",
+        "community"
+      ]
+    }
+  ],
+  "schoolCalendar": {
+    "anchorGrade": 10,
+    "anchorStart": "2020-08",
+    "firstGrade": 4,
+    "lastGrade": 11,
+    "note": "The school-year ruler is aligned from 10S in 2020–21 and 11S in 2021–22. Earlier school years are placed relative to those anchors.",
+    "following": [
+      {
+        "from": "2022-08",
+        "to": "2023-08",
+        "label": "Gym. 1",
+        "approximate": true
+      },
+      {
+        "from": "2023-08",
+        "to": "2024-08",
+        "label": "Gym. 2",
+        "approximate": true
+      },
+      {
+        "from": "2024-08",
+        "to": "2025-08",
+        "label": "Gym. 3",
+        "approximate": true
+      }
+    ],
+    "placements": {
+      "8bit": {
+        "from": "2021-06",
+        "to": "2021-09",
+        "note": "Summer between 10S and 11S; summer window aligned from the confirmed school-year anchors."
+      },
+      "iot": {
+        "from": "2022-06",
+        "to": "2022-09",
+        "note": "Transition after 11S, before first-year gymnase; the summer window is approximate."
+      }
+    }
+  }
+}

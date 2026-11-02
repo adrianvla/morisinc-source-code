@@ -1,0 +1,49 @@
+
+<div>
+  <h1>Simulation</h1>
+
+  <p>In 2024, I wrote my own 3D physics engine in C++. At one point, I had a virtual towel hanging in the simulator, and I spent a while throwing balls at it just to watch the constraints wobble. It was one of several experiments I made while exploring physics simulation and computer graphics.</p>
+
+  <h2>Physics engine</h2>
+
+  <p>The engine used Verlet integration, storing current and previous particle positions to calculate motion. I implemented collision detection and resolution, link and rigid constraints, and a three-dimensional collision grid to avoid checking every possible pair of objects. I also added world serialization and experimented with parallel simulation updates.</p>
+
+  <p>The physics was entirely my own implementation. For the surrounding application, I used native OpenGL, SFML, Eigen and Dear ImGui, which helped with rendering, interaction and debugging.</p>
+
+  [video src="https://cdn.morisinc.net/Screen%20Recording%202024-07-29%20at%2015.22.20.mp4"]My 3D physics engine running in July 2024[/video]
+
+  <p>Much of the experimentation involved throwing objects into the simulation, adjusting constraints and seeing what broke. The recordings and screenshots below are from the original application.</p>
+
+<div class="carousel">
+  [img src="/assets/img/sim-phys1.png"][/img]
+  [img src="/assets/img/sim-phys2.png"][/img]
+</div>
+
+  <p>I also built debugging tools to inspect the simulation while it was running. These were particularly useful when working on collisions, spatial partitioning and numerical stability.</p>
+
+  <span class="brd"></span>
+  [img src="/assets/img/sim-phys3-debug.png"][/img]
+
+  <h2>Voxel renderer</h2>
+
+  <p>Playing Teardown made me curious about voxel rendering. I experimented with grid traversal and ray intersections, implementing material handling for reflection, refraction, diffuse surfaces and emissive voxels. Unlike the physics engine, parts of the surrounding OpenGL/OpenCL infrastructure came from an existing template.</p>
+  <p>First, I started with [a href="https://jacco.ompf2.com/2024/04/24/ray-tracing-with-voxels-in-c-series-part-1/"]this tutorial[/a] (thanks a lot for this! One of the best introductory voxel raytracing resources I have come across) to learn graphics programming in April of 2025. To make it run on Apple Silicon, since this specific renderer ran on the CPU, I rewrote a header library that was using x86 SIMD to use ARM Neon. It ran great!</p>
+
+  [video src="http://cdn.morisinc.net/first_vox_renderer.mp4"]First ever Voxel Renderer[/video]
+
+  <p>Then started experimenting myself with other stuff, like just after finishing said tutorial, trying to harness some of the GPU's power, and that's how I learned GLSL. Still under OpenGL.</p>
+
+  [video src="https://cdn.morisinc.net/Screen%20Recording%202025-06-13%20at%2000.18.37.mp4"]Incremental Voxel Octree LOD system[/video]
+
+  [video src="https://cdn.morisinc.net/Screen%20Recording%202025-06-09%20at%2013.54.16.mp4"]Fast 3D DDA on voxels[/video]
+
+  <p>I have since moved to Vulkan because of MacOS compatibility issues with OpenGL (running under MoltenVK).</p>
+
+  <h2>Other experiments</h2>
+
+  <p>I also explored ray tracing, deferred rendering, path tracing and subdividing spatial grids. Some experiments went further than others, and a few were left rather messy. What interested me was understanding how the algorithms actually worked, from representing objects in memory to finding out which calculations became expensive.</p>
+
+  <p>I didn't really publish the code for all of this, because I usually publish source code when the project's in a good shape and not just a random experiment of mine.</p>
+
+  <p>[direct_a href="/project?Research"]Research[/direct_a]</p>
+</div>

@@ -1,17 +1,18 @@
 <div>
-    <h1>Abstract</h1>
-    <p>We present the design and implementation of a minimalist yet complete 64‑bit RISC processor, built on a Digilent CMOD‑A7 board featuring a Xilinx Artix‑7 FPGA, capable of running Tetris with integrated sound. </p>
-    <p>Motivated by the question of whether a processor operating at a modest 40 MHz—slow by modern standards—could support such a game when programmed in assembly, we developed both the processor architecture and a custom assembler. The system includes eight GPIO lines, two 8‑bit PWM outputs for audio, and sixteen 64‑bit registers. Performance evaluation shows an instruction throughput of 1.0 MIPS/MHz, exceeding that of comparable processors such as the STR71xF (0.9) and ESP32 (0.6). </p>
-    <p>The design operates at a low power consumption of 0.311 W, demonstrating that a compact, energy‑efficient FPGA‑based processor can achieve smooth game execution with audio support.</p>
-    <h1>Booklets</h1>
-    <p>Browse the French booklet and English translation below. Click a booklet title in its viewer to open the PDF.</p>
-    [reader src="/assets/booklets/tm2024.json" pdf="/assets/booklets/tm2024.pdf"]French Booklet[/reader]
-    [reader src="/assets/booklets-en/tm2024-en.json" pdf="/assets/booklets-en/tm2024-en.pdf"]English Booklet[/reader]
-    <h1>Photos</h1>
-    <span class="brd"></span>
+  <h1>Abstract</h1>
+  <p>For my 2024–2025 Travail de maturité, I designed a 64-bit RISC processor in Verilog and ran Tetris on an Artix-7 FPGA. The game has video output and sound. I also wrote the assembler and the hardware around the processor.</p>
+  <p>The CPU runs at 40 MHz and has sixteen 64-bit registers. Its peripherals include eight GPIO lines and two 8-bit PWM channels for audio. The technical report contains the instruction-set design, implementation, tests and performance measurements. The measured power figure was 0.311 W for the evaluated design.</p>
+  <p>This was the second processor architecture I built. The [direct_a href="/project?2023-Processor"]first one[/direct_a], from 2023, had a much more complicated history with interrupts and a graphical emulator. I started over for the diploma.</p>
+
+  <h1>Report</h1>
+  <p>The original French booklet and English translation are available below. The readers use the original report pages.</p>
+  [reader src="/assets/booklets/tm2024.json" pdf="/assets/booklets/tm2024.pdf"]French original[/reader]
+  [reader src="/assets/booklets-en/tm2024-en.json" pdf="/assets/booklets-en/tm2024-en.pdf"]English translation[/reader]
+
+  <h1>Photos</h1>
+  <div class="carousel">
     [img src="/assets/img/tm2024-computer_photo.png"][/img]
-    <span class="brd"></span>
     [img src="/assets/img/tm2024-title_screen.jpg"][/img]
-    <span class="brd"></span>
     [img src="/assets/img/tm2024-photo3.jpg"][/img]
+  </div>
 </div>

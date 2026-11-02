@@ -1,19 +1,11 @@
 <div>
-    <h1>Overview</h1>
-    <p>DynWeb — a minimal system for dynamic website content, with or without a template. Author your content in Word or LibreOffice and publish it as HTML.</p>
-    <p>The repository is available [a href="https://github.com/adrianvla/dynweb"]here[/a].</p>
-    [img src="/assets/img/dynweb.webp"][/img]
-    <h2>How to Use</h2>
-    <p>Set up a folder named <code>a</code> alongside <code>dynweb.js</code>, and place your HTML files there (for example, <code>home.html</code> or <code>hello.html</code>).
-    Create an HTML page for your website and include an element with the id <code>content</code> (a dedicated tag is recommended). When a user clicks a link or visits a URL like <code>https://www.example.com/#something</code>, the element with id <code>content</code> will be populated with the contents of <code>a/something.html</code>.</p>
-    <p>License: MIT</p>
-    <h1>In Use</h1>
-    <p>This CMS is being used by the following websites:</p>
-    <ul>
-        <li>
-            <p>[a href="https://meteor-m.com/"]meteor-m.com[/a]</p>
-            <p>This website uses a modified version of DynWeb, that supports Tags, and Searching through the whole content.</p>
-        </li>
-        <li>[a href="https://keke.morisinc.net/"]keke.morisinc.net[/a] (no content because website is archived)</li>
-    </ul>
+  <h1>DynWeb</h1>
+  <p>A small website content loader from the days when I was trying to avoid rewriting HTML whenever somebody wanted to change a page. It can load content by the URL hash, with an optional template around it.</p>
+  <p>Content can be prepared in LibreOffice or Word, exported as HTML, and put into the site's content directory. The [a href="https://github.com/adrianvla/DynWeb"]source[/a] is public.</p>
+  <span class="brd"></span>
+  [img src="/assets/img/dynweb.webp"]DynWeb example[/img]
+
+  <h2>Using it</h2>
+  <p>Put pages such as <code>home.html</code> in a folder named <code>a</code> next to <code>dynweb.js</code>. Add an element with <code>id="content"</code> to the main page. A link to <code>#home</code> loads <code>a/home.html</code> into that element.</p>
+  <p>I used versions of this approach on [a href="https://meteor-m.com"]meteor-m.com[/a] and [a href="https://keke.morisinc.net"]the Minecraft site[/a]. The first had additional search and tagging logic. License: MIT.</p>
 </div>

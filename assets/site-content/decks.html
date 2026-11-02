@@ -1,30 +1,26 @@
 <div>
     <h1>Overview</h1>
-    <p>A LaTeX-enabled flashcard application with spaced repetition.</p>
-    <p>It is open source; the source code is available [a href="https://github.com/adrianvla/decks"]here[/a].</p>
-    <p>
-        You can use it online on [btn link="https://decks.morisinc.net/"]decks.morisinc.net[/btn]. If you have trouble, please visit the [a href="https://decks.morisinc.net/help"]Help page[/a].
-    </p>
-    <p>To set it up, you'll have to create a database that can be used across many Morisinc services as explained [a href="https://decks.morisinc.net/help"]here[/a].</p>
-    <h1>Features</h1>
+    <p>Decks is the flashcard app I made after [a href="https://www.studysmarter.de/"]StudySmarter[/a] lost a large chunk of my study material. It supports LaTeX, images, and two ways to review cards. You bring your own Firebase database rather than storing everything in an account on my server.</p>
+    <p>It runs in a browser. You can move sets between installations using <code>.deck</code> files (JSON underneath), or share an import link.</p>
+    <p>[a href="https://github.com/adrianvla/decks"]Source code[/a] · [btn link="https://decks.morisinc.net/"]Open[/btn] · [a href="https://decks.morisinc.net/help"]Setup guide[/a]</p>
+    <h1>Studying</h1>
     <ul>
-        <li>LaTeX Support</li>
-        <li>Normal flashcard mode (like Quizlet)</li>
-        <li>Self-hosted database (requiring each user to enter their own firebase api-key)</li>
-        <li>Cross-platform (online WebApp)</li>
-        <li>Flashcard Deck Import & Export</li>
-        <li>Dark & Light mode</li>
+        <li>Flashcard mode, with Hard / OK / Easy ratings</li>
+        <li>Box-based repetition: review cards in batches, repeating the difficult ones until they're learned. The name in the app says "spaced repetition," but it isn't a date-based SRS scheduler.</li>
+        <li>LaTeX through MathJax, including mathematical notation in the cards</li>
+        <li>Images uploaded to the user's Firebase Storage</li>
+        <li>Import and export, dark and light themes, keyboard shortcuts</li>
     </ul>
-    <h1>Why I built this</h1>
-    <p>I previously used [a href="https://www.studysmarter.de/"]StudySmarter[/a] to prepare for exams, but encountered instability when creating flashcards rapidly.</p>
-    <p>Two days before my Calculus I (Part 1) exam, a significant portion of my flashcards disappeared due to platform issues.</p>
-    <p>In response, I built the first prototype of this app in one week and used it for Part 2 of the exam.</p>
-    <p>Decks prioritizes stability and fast flashcard creation to protect your work.</p>
+    <h1>Why I wrote it</h1>
+    <p>I used to make flashcards at a fairly ridiculous speed. One week before my Euler Calculus I exam, StudySmarter lost a large part of them. I wasn't going to rebuild that collection inside the same app.</p>
+    <p>I wrote the first version of Decks in about a week and used it for the second part of the exam. The separate database and exportable files were deliberate: I wanted to be able to take my notes with me.</p>
     <h1>Screenshots</h1>
-    [img src="/assets/img/decks-screenshot1.png"][/img]
-    [img src="/assets/img/decks-screenshot2.png"][/img]
-    [img src="/assets/img/decks-screenshot3.png"][/img]
-    [img src="/assets/img/decks-screenshot4.png"][/img]
-    [img src="/assets/img/decks-screenshot5.png"][/img]
-    [img src="/assets/img/decks-screenshot6.png"][/img]
+    <div class="carousel">
+	    [img src="/assets/img/decks-screenshot1.png"][/img]
+	    [img src="/assets/img/decks-screenshot2.png"][/img]
+	    [img src="/assets/img/decks-screenshot3.png"][/img]
+	    [img src="/assets/img/decks-screenshot4.png"][/img]
+	    [img src="/assets/img/decks-screenshot5.png"][/img]
+	    [img src="/assets/img/decks-screenshot6.png"][/img]
+    </div>
 </div>

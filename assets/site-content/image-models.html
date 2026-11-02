@@ -1,0 +1,101 @@
+
+<div>
+  <h1>Image models</h1>
+
+  <p>Between late 2023 and mid-2024, I periodically experimented with Stable Diffusion, generating images and experimenting with LoRA adapters locally on my RTX 3060. I was particularly interested in reproducing specific characters, understanding what relatively small adapters could learn, and exploring how much control I could achieve over the generated images.</p>
+
+  <p>This wasn't a continuous project. I returned to it occasionally for short periods, never spending more than about a week on it consecutively. My surviving archives include generations dated December 2023, February 2024, and June 2024. Despite the relatively limited time I spent on it, I explored quite a few different approaches, including training an adapter of my own.</p>
+
+  <h2 data-toc="Experiments">Training &amp; experimentation</h2>
+
+  <p>I experimented with several character-specific LoRAs, including:</p>
+
+  <ul>
+    <li><strong>Yuichiro</strong> -- from Seraph of the End.</li>
+    <li><strong>Mikaela</strong> -- also from Seraph of the End.</li>
+    <li><strong>Nobita</strong> -- from Doraemon.</li>
+    <li><strong>Doraemon</strong> -- also from Doraemon.</li>
+  </ul>
+
+  <p>These were existing character adapters that I used in my experiments. I've since recovered their checkpoints, although I initially had difficulty remembering which ones I'd trained myself. From the surviving metadata and my recollection, I now believe that my own training work was concentrated on a separate adapter called <strong>"boyman"</strong>.</p>
+
+  <p>Unlike the character-specific LoRAs, "boyman" was intended to improve the consistency of male characters in anime-style generations more generally. I assembled its dataset from a community-tagged illustration archive, using its API's inclusion and exclusion tags to refine the selection. The surviving checkpoint records 4,938 training images.</p>
+
+  <p>The experiment worked surprisingly well. Without the adapter, some generated male characters had rather ambiguous appearances, even when explicitly prompted otherwise. Enabling it helped produce more consistent results, including when combined with character-specific LoRAs.</p>
+
+  <p>Much of my experimentation revolved around character identity, consistency, and the interaction between learned concepts. I varied prompts, poses, expressions, clothing, and adapter weights to see how reliably each character could be reproduced. I also tried combining multiple character LoRAs within the same image, particularly Yuichiro and Mikaela, to see whether their features would remain distinct or bleed into one another.</p>
+
+  <p>These combinations weren't always predictable. Features could transfer between characters, clothing and identities could become mixed, and changing one adapter's weight could affect more than the intended feature. I found these failures particularly interesting, since they illustrated the difficulty of controlling several learned concepts independently.</p>
+
+  <p>Hands were another recurring problem. The base models frequently struggled with fingers and hand anatomy, so I experimented with third-party corrective LoRAs such as "hand_4", alongside general-purpose detail adapters such as "more_details" and "add_detail". Adjusting their weights sometimes helped considerably, although the results were far from consistently reliable.</p>
+
+  <p>I also experimented with reproducing characters without using their character-specific LoRAs, relying instead on detailed descriptions and prompt engineering. Comparing these generations with the LoRA-assisted results gave me another way to explore what the adapters were contributing.</p>
+
+  <h2>Selected generations</h2>
+
+  <p>I've recovered some of the images generated during these experiments. The following carousel includes examples made using character-specific LoRAs, experiments combining multiple characters, and attempts to reproduce similar characters without those adapters.</p>
+
+  <p>The carousel begins with several generations of Yuichiro, followed by Mikaela and compositions featuring both characters, where I experimented with interference between their respective LoRAs. Next are generations of Nobita and Doraemon, followed by attempts to reproduce them without their character-specific adapters. The final two images return to Yuichiro, this time generated without his character LoRA.</p>
+
+  <div class="carousel">
+    [img src="/assets/img/imgen-yuu1.png"][/img]
+    [img src="/assets/img/imgen-yuu2.png"][/img]
+    [img src="/assets/img/imgen-yuu3.png"][/img]
+    [img src="/assets/img/imgen-yuu4.png"][/img]
+    [img src="/assets/img/imgen-mika1.png"][/img]
+    [img src="/assets/img/imgen-mika2.png"][/img]
+    [img src="/assets/img/imgen-mika3.png"][/img]
+    [img src="/assets/img/imgen-nobita.png"][/img]
+    [img src="/assets/img/imgen-nobita2.png"][/img]
+    [img src="/assets/img/imgen-doraemon.png"][/img]
+    [img src="/assets/img/imgen-nobita-loraless.png"][/img]
+    [img src="/assets/img/imgen-doraemon-loraless.png"][/img]
+    [img src="/assets/img/imgen-yuu-loraless1.png"][/img]
+    [img src="/assets/img/imgen-yuu-loraless2.png"][/img]
+  </div>
+
+  <h2>Archived prompts</h2>
+
+  <p>I've also kept some of the prompts used during these experiments. They're reproduced here as historical examples rather than recommendations for current models. Some were adapted from existing examples, and I haven't recovered every configuration, so certain details remain uncertain.</p>
+
+  <h3 data-toc="Yuichiro LoRA">Yuichiro with a character-specific LoRA</h3>
+
+  <p>Several of the early Yuichiro images were generated using a character-specific LoRA alongside additional third-party adapters for details and hand anatomy. One of the prompts I used was:</p>
+
+  <pre>(masterpiece, top quality, best quality, official art, beautiful and aesthetic, anime style:1.4), (8k, best quality, masterpiece:1.4),
+(looking at the viewer, cowboy shot, standing:1), 1boy, solo, Yuichiro, (black hair, short hair, black colored hair, bangs:1.2),
+(green eyes, shining green eyes:1.3), [smile, open mouth:1.2], (white gloves, military uniform, black jacket:1.3), (epic glow, night, dark lighting, high shadows:1.4), &lt;lora:more_details:.3&gt;, &lt;lora:YuichiroLora:.7&gt;, &lt;lora:hand_4:0.2&gt;</pre>
+
+  <p>The negative prompt may have been the following one, although I'm not entirely certain it was the exact version used:</p>
+
+  <pre>[lowres, blurry, worst quality, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy,
+extra limb, missing limb, floating limbs, mutated hands and fingers,
+disconnected limbs, mutation, mutated, disgusting, blurry, amputation, less fingers, more fingers, bad fingers, more legs,
+less legs, nsfw, girl, furry, cat ears, green hair, black gloves, yellow, blue, red, splashing, water, opened jacket]</pre>
+
+  <h3>Other character LoRAs</h3>
+
+  <p>For simpler generations, I often started with prompts resembling the following pattern, substituting the character and corresponding adapter:</p>
+
+  <pre>{character name} &lt;lora:{character name}:0.8&gt;</pre>
+
+  <h3 data-toc="Without LoRAs">Without character-specific LoRAs</h3>
+
+  <p>The final two images in the carousel are attempts to reproduce Yuichiro through prompt engineering without using his character-specific LoRA. Similar comparisons were made for Nobita and Doraemon. One of the prompts I used for the Yuichiro generations was:</p>
+
+  <pre>1boy, green eyes, black hair, messy hair,
+black coat, white gloves, masterpiece, sexy, violently screaming, looking at camera,  &lt;lora:add_detail:-1&gt;,
+light green sword in hand, closed jacket, brown shoulder strap, cape</pre>
+
+  <p>This still used a general-purpose detail adapter, but not one trained specifically on Yuichiro. A similar negative prompt was reused.</p>
+
+  <h2>Results &amp; archive</h2>
+
+  <p>I've managed to recover my "boyman" checkpoint, several character-specific LoRAs I used, generated images, prompts, and other files from these experiments. Some of the surviving material dates back to December 2023, with additional results from February and June 2024.</p>
+
+  <p>Recovering the files has also helped clarify parts of the project's history that I'd misremembered, particularly the distinction between models I trained and models I used. I haven't reconstructed the exact chronology of every experiment, but the surviving artifacts provide a useful record of what I was doing at the time.</p>
+
+  <p>I may eventually document some of the more interesting comparisons and observations in [direct_a href="/publications"]Writing[/direct_a].</p>
+
+  <p>[direct_a href="/project?Research"]Research[/direct_a]</p>
+</div>

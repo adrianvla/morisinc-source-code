@@ -1,36 +1,348 @@
 [
-  {"category": "Software", "items": [
-    {"name": "mLearn","url": "mlearn.html", "image": "/assets/img/mlearn.webp", "directURL": false, "desc": "An intelligent language learning app that adapts to what you already know"},
-    {"name": "quick!","url": "quick.html", "image": "/assets/img/quick.webp", "directURL": false, "desc": "Plan by the minute: an intelligent task management app to plan projects and tasks automatically using the PERT algorithm."},
-    {"name": "Decks","url": "decks.html", "image": "/assets/img/decks.webp", "directURL": false, "desc": "A LaTeX spaced-repetition online flashcard app."},
-    {"name": "Geo Game","url": "geo-game.html", "image": "/assets/img/geo-game.webp", "directURL": false, "desc": "A mobile friendly multiplayer geography game"},
-    {"name": "mCall","url": "mcall.html", "image": "/assets/img/mcall.webp", "directURL": false, "desc": "Like Google Meet, but you can choose who you want to speak & connect to in a meeting, end-to-end encrypted."}
-  ]},
-  {"category": "Research", "items": [
-    {"name": "HS Diploma Project","url": "tm2024.html", "image": "/assets/img/tm2024.jpg", "directURL": false, "desc": "My High School Diploma Project: Designing and implementing a novel CPU architecture, a platform using it and porting a game to it."}
-
-  ]},
-  {"category": "Hardware", "items": [
-    {"name": "Smart Clock","url": "clock.html", "image": "/assets/img/clock.png", "directURL": false, "desc":  "A Matrix clock built on Raspberry Pi Zero"},
-    {"name": "IoT Home Automation","url": "iot.html", "image": "/assets/img/iot.webp", "directURL": false, "desc":  "Like Apple Home Kit, but free and for raspberry-pi."}
-  ]},
-  {"category": "Design", "items": [
-    {"name": "mlearn.morisinc.net", "url": "https://mlearn.morisinc.net", "image": "/assets/img/mlearn-morisinc-net.png", "directURL": true, "desc": "The website for the mLearn app"},
-    {"name": "morisinc.net", "url": "morisinc-net.html", "image": "/assets/img/morisinc-net.png", "directURL": false, "desc": "This website"},
-    {"name": "meteor-m.com", "url": "https://meteor-m.com", "image": "/assets/img/meteor-m-com.png", "directURL": true, "desc": "Another website I made"}
-  ]},
-  {"category": "Misc", "items": [
-    {"name": "old morisinc.net", "url": "https://m2022.morisinc.net", "image": "/assets/img/old-morisinc-net.png", "directURL": true, "desc": "The older version of this website"},
-    {"name": "8BIT.js","url": "8bit-js.html", "image": "/assets/img/8bitjs.png", "directURL": false, "desc": "A Simple JavaScript Sprite Library for creating retro 8 bit games"},
-    {"name": "M5 Geiger Counter","url": "m5geiger.html", "image": "/assets/img/m5gs.webp", "directURL": false, "desc":  "A Geiger counter based on M5Stack"},
-    {"name": "DynWeb","url": "dynweb.html", "image": "/assets/img/dynweb.webp", "directURL": false, "desc": "Dynamic Website Content: A very simple CMS, using a template or none. Use LibreOffice to write the content."},
-    {"name": "Retro Tetris", "url": "tetris.html", "image": "/assets/img/tetris.png", "directURL": false, "desc": "Original Tetris on the Soviet DVK2M computer. This is a recreation of it."},
-    {"name": "mc website", "url": "https://keke.morisinc.net", "image": "/assets/img/keke-morisinc-net.png", "directURL": true, "desc": "A website dedicated to my Minecraft creations when I was youger"},
-    {"name": "Backdoor.js", "url": "https://github.com/adrianvla/website-backdoor.js", "image": "/assets/img/bdjs.png", "directURL": true, "desc": "Make a loader that puts a script into the website's code. Has a keylogger and a live screen view"}
-  ]},
-  {"category": "HIDDEN", "items": [
-    {"name": "about", "url": "about.html", "image": "/assets/img/5149734.jpg", "directURL": false, "desc": "about"},
-    {"name": "cv", "url": "cv.html", "image": "", "directURL": false, "desc": "cv"},
-    {"name": "publications", "url": "publications.html", "image": "/assets/img/5149734.jpg", "directURL": false, "desc": "publications"}
-  ]}
+  {
+    "category": "Selected",
+    "items": [
+      {
+        "name": "mLearn",
+        "url": "mlearn.html",
+        "image": "/assets/img/mlearn.webp",
+        "directURL": false,
+        "desc": "An immersion app for books and video, with interactive subtitles, OCR and a model of what the learner knows."
+      },
+      {
+        "name": "HS Diploma Project",
+        "url": "tm2024.html",
+        "image": "/assets/img/tm2024.jpg",
+        "directURL": false,
+        "desc": "My 64-bit Verilog processor, its assembler, and Tetris running with video and sound on an FPGA."
+      },
+      {
+        "name": "morisinc.net",
+        "url": "morisinc-net.html",
+        "image": "/assets/img/morisinc-net.png",
+        "directURL": false,
+        "desc": "This site, with its project navigator, writing, and a few unnecessary moving parts."
+      },
+      {
+        "name": "Business Card",
+        "url": "business-card.html",
+        "image": "/assets/img/header-business-card.webp",
+        "directURL": false,
+        "desc": "Electronic nRF52 card with NFC, BLE and motion input"
+      }
+    ]
+  },
+  {
+    "category": "Explore",
+    "items": [
+      {
+        "name": "Timeline",
+        "url": "all-work.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Projects, studies, and a few other things along the way."
+      },
+      {
+        "name": "Research",
+        "url": "research.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Questions I'm pursuing, and what I build to investigate them."
+      },
+      {
+        "name": "Software",
+        "url": "software.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Applications, websites and the tools around them."
+      },
+      {
+        "name": "Hardware",
+        "url": "hardware.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Devices, embedded software and processor designs."
+      },
+      {
+        "name": "Games",
+        "url": "games.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Minecraft maps and servers, games of my own, and earlier experiments."
+      },
+      {
+        "name": "Libraries",
+        "url": "libraries.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Rendering code and reusable tools."
+      }
+    ]
+  },
+  {
+    "category": "HIDDEN",
+    "items": [
+      {
+        "name": "All-Work",
+        "url": "all-work.html",
+        "image": "",
+        "directURL": false,
+        "desc": "",
+        "displayName": "Timeline"
+      },
+      {
+        "name": "Explore",
+        "url": "all-work.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Timeline of projects, studies and other work.",
+        "displayName": "Timeline"
+      },
+      {
+        "name": "quick!",
+        "url": "quick.html",
+        "image": "/assets/img/quick.webp",
+        "directURL": false,
+        "desc": "A web task planner for scheduling work down to minutes or seconds, using PERT-based planning."
+      },
+      {
+        "name": "Decks",
+        "url": "decks.html",
+        "image": "/assets/img/decks.webp",
+        "directURL": false,
+        "desc": "A flashcard app with LaTeX, images, user-managed Firebase storage, portable .deck files, and box-based repetition."
+      },
+      {
+        "name": "Geo Game",
+        "url": "geo-game.html",
+        "image": "/assets/img/geo-game.webp",
+        "directURL": false,
+        "desc": "A multiplayer geography game I built while learning to manage shared state with Firebase."
+      },
+      {
+        "name": "mCall",
+        "url": "mcall.html",
+        "image": "/assets/img/mcall.webp",
+        "directURL": false,
+        "desc": "WebRTC calls where participants can choose which peers to connect to."
+      },
+      {
+        "name": "IoT Home Automation",
+        "url": "iot.html",
+        "image": "/assets/img/iot.webp",
+        "directURL": false,
+        "desc": "I built this Raspberry Pi dashboard for controlling devices by room. Walking to the light switch turned out to be easier."
+      },
+      {
+        "name": "mLearn website",
+        "url": "https://mlearn.kikan.net",
+        "image": "/assets/img/mlearn-morisinc-net.png",
+        "directURL": true,
+        "desc": ""
+      },
+      {
+        "name": "meteor-m.com",
+        "url": "https://meteor-m.com",
+        "image": "/assets/img/meteor-m-com.png",
+        "directURL": true,
+        "desc": "A website I built with a modified DynWeb loader, adding search and tagging."
+      },
+      {
+        "name": "2022 morisinc.net",
+        "url": "https://m2022.morisinc.net",
+        "image": "/assets/img/old-morisinc-net.png",
+        "directURL": true,
+        "desc": "My 2022 portfolio experiment with huge typography and transitions."
+      },
+      {
+        "name": "8BIT.js",
+        "url": "8bit-js.html",
+        "image": "/assets/img/8bitjs.png",
+        "directURL": false,
+        "desc": "My Canvas sprite library for sprite sheets, scrolling backgrounds, parallax, and particles."
+      },
+      {
+        "name": "M5 Geiger Counter",
+        "url": "m5geiger.html",
+        "image": "/assets/img/m5gs.webp",
+        "directURL": false,
+        "desc": "An M5Stack Geiger counter with Wi-Fi logging and a radiation map."
+      },
+      {
+        "name": "DynWeb",
+        "url": "dynweb.html",
+        "image": "/assets/img/dynweb.webp",
+        "directURL": false,
+        "desc": "A small content system that turns authored documents into HTML pages, used by published websites."
+      },
+      {
+        "name": "Retro Tetris",
+        "url": "tetris.html",
+        "image": "/assets/img/tetris.png",
+        "directURL": false,
+        "desc": "A from-scratch recreation of Tetris for the Soviet DVK-2M computer."
+      },
+      {
+        "name": "Minecraft creations website",
+        "url": "https://keke.morisinc.net",
+        "image": "/assets/img/keke-morisinc-net.png",
+        "directURL": true,
+        "desc": "The site where I published Minecraft maps, datapacks, and other creations."
+      },
+      {
+        "name": "about",
+        "url": "about.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Background, education, and interests."
+      },
+      {
+        "name": "cv",
+        "url": "cv.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Curriculum vitae."
+      },
+      {
+        "name": "publications",
+        "url": "publications.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Reports, notes, and essays.",
+        "displayName": "Writing"
+      },
+      {
+        "name": "Project Index",
+        "url": "all-work.html",
+        "image": "",
+        "directURL": false,
+        "desc": "",
+        "displayName": "Timeline"
+      },
+      {
+        "name": "Minecraft",
+        "url": "minecraft.html",
+        "image": "/assets/img/header-minecraft.webp",
+        "directURL": false,
+        "desc": "Maps, datapacks, servers, and videos from my Minecraft years"
+      },
+      {
+        "name": "Learn Online",
+        "url": "learn-online.html",
+        "image": "",
+        "directURL": false,
+        "desc": "A learning platform I built in grades 9–10"
+      },
+      {
+        "name": "2023 Processor",
+        "url": "processor-2023.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Earlier 32-bit Verilog processor with assembler and graphical emulator"
+      },
+      {
+        "name": "MWatch",
+        "url": "mwatch.html",
+        "image": "/assets/img/header-mwatch.webp",
+        "directURL": false,
+        "desc": "An early GSM wristwatch assembled from repackaged MT2502 hardware"
+      },
+      {
+        "name": "XWatch",
+        "url": "xwatch.html",
+        "image": "/assets/img/header-xwatch.webp",
+        "directURL": false,
+        "desc": "An M5Stack watch I built with a clock, alarm, sleep timer, and SD-card music player."
+      },
+      {
+        "name": "Smart Clock",
+        "url": "clock.html",
+        "image": "/assets/img/clock.png",
+        "directURL": false,
+        "desc": "A programmable Raspberry Pi Zero matrix clock with editable widgets and a browser-based screen editor."
+      },
+      {
+        "name": "Smart Glasses",
+        "url": "smart-glasses.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Early wearable display experiments, mainly paper and physical mockups"
+      },
+      {
+        "name": "Air Control",
+        "url": "air-control.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Mouse cursor movement between networked Windows PCs"
+      },
+      {
+        "name": "Image Models",
+        "url": "image-models.html",
+        "image": "/assets/img/header-image-models.webp",
+        "directURL": false,
+        "desc": "Experiments with Stable Diffusion character LoRAs and prompts"
+      },
+      {
+        "name": "Simulation",
+        "url": "simulation.html",
+        "image": "/assets/img/header-simulation.webp",
+        "directURL": false,
+        "desc": "Verlet physics and voxel rendering experiments"
+      },
+      {
+        "name": "Early Projects",
+        "url": "early-projects.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Selected childhood coding and hardware experiments"
+      },
+      {
+        "name": "Life",
+        "url": "life.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Mathematics, languages, music, design and communities.",
+        "displayName": "Study & art"
+      },
+      {
+        "name": "Archive",
+        "url": "archive.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Older projects and things I no longer maintain.",
+        "displayName": "Earlier work"
+      },
+      {
+        "name": "Browse",
+        "url": "all-work.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Timeline of projects, studies and other work.",
+        "displayName": "Timeline"
+      },
+      {
+        "name": "Intelligent Subtitles",
+        "url": "intelligent-subtitles.html",
+        "image": "/assets/img/author-media/subtitles/01-pitch-accent-popup.png",
+        "directURL": false,
+        "desc": "I used Anki to colour Japanese subtitles according to what I knew. That idea later grew into mLearn."
+      },
+      {
+        "name": "Writing--initial-commit",
+        "displayName": "First Contact",
+        "url": "writing-posts/initial-commit.html",
+        "image": "",
+        "directURL": false,
+        "desc": "Bottom text. You will be onboarded onto my thoughts and ideas."
+      },
+      {
+        "name": "Writing--cpu-diploma-booklet",
+        "displayName": "64-bit CPU report",
+        "url": "writing-posts/cpu-diploma-booklet.html",
+        "image": "",
+        "directURL": false,
+        "desc": "The original French report and English translation of my gymnase diploma project: a 64-bit processor, assembler, and Tetris running on an FPGA."
+      }
+    ]
+  }
 ]

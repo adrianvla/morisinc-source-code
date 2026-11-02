@@ -1,0 +1,35 @@
+
+<div>
+	<h1>Research</h1>
+	<p>I'm interested in just about anything, really. Some subjects have fascinated me since childhood, while others catch my attention almost by accident. I enjoy figuring out how things work, questioning assumptions, finding connections between seemingly unrelated ideas, and occasionally experimenting and building something to see what happens.</p>
+
+	<p>My interests have taken me through mathematics, physics, computer science, neuroscience, artificial intelligence, education, and quite a few other fields. I don't particularly try to keep them separate; often, an idea from one area turns out to be useful somewhere entirely different.</p>
+	<p>Dividing human knowledge into fields makes it easier to organize, study, and navigate. But those divisions are largely conveniences, not boundaries inherent to the problems we're trying to solve. Reality doesn't particularly care whether something belongs to physics, biology, mathematics, or computer science. When investigating a problem, I find it much more useful to follow the connections wherever they lead, rather than confining myself to a particular discipline (especially for administrative reasons).</p>
+
+	<p>Some questions have stayed with me for years, especially those concerning the human mind, complex systems, and learning. Others are more spontaneous. The topics below are a selection of things I've investigated, rather than an exhaustive list of what interests me or a fixed research agenda. </p>
+
+	<h2 data-toc="Cognition">Cognition &amp; complex systems</h2>
+	<p>One of the questions I keep returning to is how complex behaviour emerges from simpler interactions. The brain is an especially interesting example, but the question extends to networks and large-scale systems more generally. What can we infer about a system from its local structure? And conversely, what can its global behaviour tell us about the parts?</p>
+	<p>In computational neuroscience, I'm particularly interested in connecting different levels of description. A dendritic branch, a neuron, and an entire neural circuit operate at very different scales, yet belong to the same physical system. Understanding how those levels relate, and how to describe the relationships rigorously, is one of the problems I'm currently investigating. This work remains unpublished.</p>
+	<p>I'm also interested in cognition beyond its biological implementation: how reasoning, memory, emotion, and accumulated experience interact to produce decisions, and how those processes might be represented computationally.</p>
+
+	<span class="brd"></span>
+	[img src="/assets/img/neuron_gtk1.png"][/img]
+
+	<h2 data-toc="AI & simulation">Artificial intelligence &amp; simulation</h2>
+	<p>A natural extension of trying to understand intelligence is trying to reproduce aspects of it. I've explored artificial agents with memory, emotional states, and individual histories, as well as societies formed by interactions between many such agents. The interesting question isn't just how to make them behave convincingly, but which mechanisms are actually necessary to produce complex behaviour.</p>
+	<p>Scale becomes an important problem here too. Simulating every detail of every individual is rarely practical, but simplifying too much can remove precisely the interactions you're trying to study. Similar questions arise when modelling neural systems, where the appropriate level of detail depends on what you're trying to understand.</p>
+
+	<p>One of my longer-term ambitions is to build a simulation engine that I can use to explore different kinds of systems, from physical environments to artificial agents and their interactions. I'm interested not only in reproducing their behaviour, but also in experimenting with the underlying mechanisms and seeing what emerges when they interact. Pursuing this has led me into [direct_a href="/project?Simulation"]physics simulation and graphics[/direct_a], where I've worked on the architecture of real-time, large-scale and destructible environments, exploring constraint solvers, collision detection, voxel representations, spatial hierarchies, ray traversal and rendering techniques. Much of the challenge lies in deciding what needs to be represented, at what level of detail, and how to make the resulting simulations computationally practical. Some approaches have been implemented and tested, while others remain architectural experiments or ideas I'm still developing.</p>
+
+	<p>I've also spent considerable time experimenting with generative image models, particularly Stable Diffusion. Beyond generating images, I've trained my own LoRAs locally, experimented with different learned concepts, and investigated how multiple adapters interact. Combining characters, styles and anatomical corrections raised interesting problems involving consistency, interference and the separation of learned features. Some combinations worked remarkably well, while others exposed limitations in how the models handled competing concepts. A selection of these [direct_a href="/project?Image-Models"]experiments is documented here[/direct_a].</p>
+
+	<h2 data-toc="Learning">Learning &amp; education</h2>
+	<p>Another question I've been interested in is how people can learn more effectively. Not simply how to make studying more convenient, but which methods actually produce better learning, why they work, and how their effectiveness can be measured.</p>
+	<p>My broader ambition is to make effective education more accessible and adaptable, giving people greater freedom to learn at their own pace, through their own interests, and without depending entirely on conventional educational structures or ceremony. I'd like to approach that scientifically, testing assumptions about learning rather than treating familiar teaching methods as necessarily optimal.</p>
+	<p>[direct_a href="/project?mLearn"]mLearn[/direct_a] is one practical application of these questions. Its word-knowledge model has to infer what someone knows from imperfect observations: encountering a word, recognizing it in context, rating it, or answering a probe in a specific environment. Each provides different evidence, and the model has to decide how much confidence to place in it.</p>
+	<p>But estimating knowledge is only part of the problem. There's also the question of what someone should learn next, when review is useful, how different types of practice affect retention, and how to distinguish an apparently effective method from one that actually improves learning. These are questions I continue to investigate.</p>
+
+	<p>This is by no means an exhaustive list of what I've investigated. I tend to publish things only once they've taken enough shape that I'm happy to share them, so quite a lot of what I've explored, experimented with, or built isn't documented here. Some of my other work can be found in the [direct_a href="/project?Browse"]project collection[/direct_a], longer notes and more formal investigations in [direct_a href="/publications"]Writing[/direct_a], and various projects and experiments on my [a href="https://github.com/adrianvla"]GitHub[/a].</p>
+
+</div>

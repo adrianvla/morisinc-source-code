@@ -1,0 +1,18 @@
+<div>
+  <h1 data-toc="Business card">An opensource business card</h1>
+  <p>A business card that's a PCB instead of cardboard seemed like a reasonable and fun idea, so I made one. The result is roughly credit-card-sized and runs on an nRF52, with NFC, BLE, an accelerometer and LEDs. The active build took about a week.</p>
+<span class="brd"></span>
+  [img src="/assets/img/bc-photo.png"][/img]
+
+  <h2>The PCB</h2>
+  <p>I began in Sketch, did schematics, board layout and routing in Altium, and wrote the firmware myself. A tap, flick or NFC interaction wakes the card from low power mode. The NFC tag carries a vCard; the board can advertise battery voltage over BLE and measure it with the nRF52's ADC. The accelerometer communicates over I2C with the nRF52.</p>
+
+  <span class="brd"></span>
+  [img src="/assets/img/bc-schem.png"][/img]
+
+  <h2>Presenter mode</h2>
+  <p>The card also presents itself as a Bluetooth HID keyboard. Hold it face up and flick it left or right to advance presentation slides, with LED feedback for each gesture. It worked, and I made physical copies to hand to people.</p>
+  <p>If you meet me IRL, there's a non-zero probability that I'll give you one of those.</p>
+  <p>The [a href="https://github.com/adrianvla/business-card"]firmware[/a] is opensource.</p>
+  <p>[direct_a href="/project?Hardware"]Hardware[/direct_a]</p>
+</div>

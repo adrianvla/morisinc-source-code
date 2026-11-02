@@ -1,18 +1,17 @@
 <div>
     <h1>Overview</h1>
-    <p>A matrix clock built on a Raspberry Pi Zero, similar in spirit to the LaMetric Time.<br>Work in progress.</p>
+    <p>I built this matrix clock around a Raspberry Pi Zero. It has multiple screens, movable widgets, and a browser editor for changing what the display does.</p>
     <p>You can find the source code and build files [a href="https://github.com/adrianvla/clock"]here[/a].</p>
     <h1>Gallery</h1>
-    <span class="brd"></span>
+    <div class="carousel">
     [img src="/assets/img/clock-IMG_1060.png"][/img]
-    <span class="brd"></span>
     [img src="/assets/img/clock-IMG_1061.png"][/img]
-    <span class="brd"></span>
     [img src="/assets/img/clock-IMG_1062.png"][/img]
+  </div>
     <h1>Features</h1>
     <p>Features include movable widgets, multiple screen environments, and animations.<br>
     A control panel allows you to edit nearly everything, including widget positions and widget code.</p>
-    <p>Clock drift on the Raspberry Pi Zero is mitigated by periodic synchronization with an online time server.</p>
+    <p>The software periodically synchronizes the Raspberry Pi Zero with an online time server to correct clock drift.</p>
     <h2>Widgets</h2>
     <p>Widgets that are provided out-of-the-box:</p>
     <ul>
@@ -36,19 +35,10 @@
         <li>Edit Widgets / Create new ones using JavaScript right in your browser (using Monaco Editor)</li>
         <li>Edit Screens / Create new ones by dragging and dropping the widgets on a virtual screen</li>
     </ul>
+    <div class="carousel">
     [img src="/assets/img/clock-c1.png"][/img]
     [img src="/assets/img/clock-c2.png"][/img]
-    <h1>How to Use</h1>
-    <p>Obtain an API key from weatherapi.com.<br>
-    Paste it into <code>/code/src/widgets/weather/weather.js</code> (work in progress; will be moved to the control panel).</p>
-    <p>Configure your RSS feeds in <code>/code/src/widgets/rssFeed/rss.js</code> (work in progress; will also be moved to the control panel).</p>
-    <p>Create a systemctl service to autorun</p>
-    <pre style="color:#fff">#!/bin/bash
-cd &lt;the directory containing the contents of the code folder&gt;
-sudo node src/main.js
-</pre>
-    <p>and name it <code>script-startup.service</code></p>
-    <p>And you're good to go.</p>
-    <p>To connect the WS281x display, use GPIO 18, or change the pin in <code>/code/src/utils/driver.js</code>.</p>
-    <p>License: MIT</p>
+  </div>
+    <h1>Implementation</h1>
+    <p>The clock combines a Raspberry Pi Zero, an LED matrix, and a Node.js application. The project repository includes the software and build details; it is released under the MIT License.</p>
 </div>
